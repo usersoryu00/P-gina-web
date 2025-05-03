@@ -8,11 +8,11 @@
 
 
 :root{
---primary-color : #595959;
---secundary-color : #333;
---bg-color : #f9f9f9;
+--primary-color : #e7a3d9;
+--secundary-color : #524051;
+--bg-color : #e7a3d9;;
 --font-family:"Josefin Sans", sans-serif;
---shadow: #000000;
+--shadow: #e7a3d9;;
 --transition-speed: 0.3s;
 }
 
@@ -39,7 +39,7 @@ header{
    padding: 2rem 1rem;
    text-align: center;
    background: linear-gradient(45deg, var(--primary-color), #adadad);
-   color: white;
+   color: rgb(17, 66, 112);
 }
 nav{
     width: 100vw;
@@ -55,7 +55,7 @@ nav ul{
 
 
 nav a {
-    color: white;
+    color: rgb(31, 13, 92);
     text-decoration: none;
     font-size: 1.1rem;
     position: relative;
@@ -68,7 +68,7 @@ nav a::after{
     position: absolute;
     width: 0%;
     height: 2px;
-    background:white;
+    background:rgb(229, 218, 218);
     left: 0%;
     bottom: -3px;
     transition: width var (--transition-speed);
@@ -76,7 +76,7 @@ nav a::after{
 
 
 nav a:hover{
-    color: #e0e0e0;
+    color: #a29ff1;
 }
 
 
@@ -94,7 +94,7 @@ main{
 
 
 aside{
-    background: white;
+    background: rgb(211, 228, 245);
     padding: 1.5rem;
     box-shadow: 0 4px 8px var(--shadow);
     border-radius: 10px;
